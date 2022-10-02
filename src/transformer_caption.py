@@ -36,7 +36,7 @@ class PatchEncoder(layers.Layer):
         encoded = self.projection(patch) + self.position_embedding(positions)
         return encoded
     
-def vitNet():
+def VGG16():
     def __init__(self,image_size=128,batch_size=4,num_epochs=100):
         self.learning_rate = 0.001
         self.weight_decay = 0.0001
